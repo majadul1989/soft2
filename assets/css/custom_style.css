@@ -1,0 +1,257 @@
+/*custom stylesheet*/
+
+/*Body*/
+.bodysuccess {
+    background-color: #DFF0D8;
+}
+
+/*Side bar*/
+
+.sidebar {
+    background-color: #283C3C;
+    height: 100%;
+}
+
+/*Header style*/
+.headermenu{
+    margin-bottom: 0 !important;
+    top: 0;
+    width: 100%;
+    transition: all 1s ease 1s;
+}
+
+/*Main Window*/
+
+.main {
+    height: 2000px;
+}
+/*sidebar*/
+
+.affix {
+    top: 0;
+    left: 0;
+    width: 18.5%;
+}
+
+.sidebar{
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    width: 18.5%;
+    z-index: 1;
+    left: 0px;
+}
+
+.sidebar .menu {
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar .menu li{
+    list-style:none;
+    position: relative;
+}
+
+.sidebar .menu li a {
+    padding: 5px 5px;
+    border-bottom:1px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border-left: 3px solid #228b22;
+}
+
+.sidebar .menu li a::before:hover {
+    padding: 5px 5px;
+    border-bottom:1px solid #ffffff;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    border-left: 3px solid #228b22;
+}
+
+.active2 {
+    background-color: #228b22;
+    border-left: 4px solid #f00 !important;
+}
+
+.sidebar ul li .active2 {
+    background-color: #41a430 !important;
+
+}
+.active2::after {
+    border-bottom: 7px solid transparent;
+    border-right: 8px solid #dff0d8;
+    border-top: 7px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 0;
+    z-index: 999;
+}
+
+.sidebar .menu li a{
+    content: '';
+    width: 100%;
+}
+.sidebar .menu li a:hover {
+    background-color: #228b22;
+    animation: ease-in-out;
+    transition: all 1s ease 0s;
+    width: 100%;
+}
+
+.sub_menu {
+    background-color: #1b5306;
+    padding: 0;
+    margin: 0;
+}
+
+.local {
+
+    float: right;
+    margin-top: 3px;
+
+}
+
+/*login style*/
+
+.login {
+    margin-bottom: 20%;
+    margin-top: 16%;
+}
+
+.forgetpassword{
+	padding: 10px;
+	display: block;
+}
+
+
+.userProfilePic {
+    border: 2px solid;
+    font-size: 10px;
+    width: 24px;
+    text-align: center;
+    margin-top: 12px;
+    border-radius: 50%;
+    padding: 0 !important;
+    margin-right: 8px;
+}
+
+.userProfileName {
+    color: #000;
+    text-transform: uppercase;
+}
+
+
+.success {
+    bottom: 15px;
+    font-size: 24px;
+    position: fixed;
+    right: 6px;
+}
+
+.red {
+    color: #f00;
+    cursor: pointer;
+}
+
+.padding{
+    padding:0;
+}
+
+/*Category List Style*/
+.listStyle ul {
+    padding: 0;
+    margin: 0;
+}
+
+.listStyle ul li{
+    list-style:none;
+    position: relative;
+}
+
+.listStyle ul li span {
+    float: right;
+    position: absolute;
+    right: 15px;
+    top: 3px;
+    display: none;
+}
+
+.listStyle ul li:hover span{
+    display: block;
+}
+
+.listStyle ul li .cate {
+    color: #000;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 3px 15px;
+    margin: 2px;
+    border-radius: 5px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #fff;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+}
+
+.listStyle ul li .cate:hover {
+    color: #000;
+    background-color: #FCFCFC;
+    display: block;
+    padding: 3px 15px;
+    margin: 2px;
+    border-radius: 5px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #ccc;
+    text-decoration: none;
+    transition: all 1s ease 0s;
+}
+
+/*Menu page Style*/
+.catebox h3 {
+    padding: 3px 10px;
+    margin: 0;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.catebox span {
+    float: right;
+    height: 25px;
+    padding: 2px 15px;
+}
+
+.fixdata {
+    height: 500px;
+    overflow: auto;
+    box-shadow: 0 0 3px;
+    margin-top: 5px;
+    padding:3px;
+}
+
+.allcategory h3 {
+    background-color: #ddd;
+    border-radius: 5px 5px 0 0px;
+    box-shadow: 0 0 5px #000;
+    margin-top: 10px;
+}
+
+statuspanel[type="overLink"] .statuspanel-label {
+    display:none!important;
+}
+
+
+
